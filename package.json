@@ -56,5 +56,6 @@
   "scripts": {
     "start": "node devServer.js",
     "test": "..."
-  }
+  },
+  "test": "mocha test.js --recursive src/*.test.js src/**/*.test.js src/**/**/*.test.js"
 }
