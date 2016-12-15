@@ -1,6 +1,7 @@
 // src/Balloon.js
 
 import $ from 'jquery'
+import PopSound from './PopSound'
 import './Balloon.sass'
 
 export default class Balloon {
