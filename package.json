@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Modern JS version of the Balloon game for the Taste of Code with Webpack.",
   "main": "src/index.js",
-  "scripts": {
-    "start": "node devServer.js",
-    "test": "..."
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanjahennis/tasteofcode-webpack.git"
@@ -56,5 +52,9 @@
     "webpack": "^1.14.0",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.2"
+  },
+  "scripts": {
+    "start": "node devServer.js",
+    "test": "..."
   }
 }
